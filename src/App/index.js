@@ -24,10 +24,11 @@ function App(){
     <div className="App">
       <header className="App-header">
         <hr/>Click counter: {color}
-        {/*<button onClick={handlSwitchColor, () => setCount(count + 1)}>Go</button>*/}
         <button class='btn btn-info' onClick={handlSwitchColor}>Go</button>
         <br/>
-        <Crossroad color={ color }/>
+        <Crossroad color={ color }>
+        { color }
+        </Crossroad>
       </header>
     </div>
   );

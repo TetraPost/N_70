@@ -33,8 +33,11 @@
 }
 /*Добавляем текстовый цвет*/
 .circleColor1 {
-	color: #f00;
+	color:yellow;
 }
 .circleColor2 {
-	color: #0f0;
+	color: green;
+}
+.circleColor3 {
+	color: red;
 }
